@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notonastaliqurdudraft.css);
+@import url('https://fonts.googleapis.com/css?family=Heebo|Roboto|Tangerine|PT+Serif');
+
+body{
+    font-size: 1.15rem;
+    font-family: 'PT Serif';
+}
+a{
+    color: #5f7aff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border:1px solid #ccc;
+    border-width: 0 0 1px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    font-family: 'Roboto';
+    display:inline-block;
+    color: #666666;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+.nav .active {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #5f7aff;
+    border: 2px solid #5f7aff;
+    border-width: 0 0 3px;
+    background-color: #ffffff;
+}
+.nav li a:hover:not(.active) {
+    color: #191919;
+}
+.nav li a:hover {
+    color: #191919;
+}
+
+.container{
+    position: auto;
+    padding-top: 50px;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.smallheading{
+    font-size: 2rem;
+    font-family: 'Heebo';
+    font-weight: bold;
+}
+.heading{
+    font-size: 4rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.avatar-image img{
+    max-width: 100%;
+    float: right;
+    border-radius: 50%;
+    margin: 0 1rem;
+    width: 50%;
+    image-orientation: from-image;
+}
+section{
+    padding-top:100px;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    border:1px solid #ccc;
+    border-width: 1px 0 0;
+    padding-top:1rem;
+    text-align:center;
+    background-color: #ffffff;
+}
+footer i{
+    color: #5f7aff;
+    filter: grayscale(100%);
+}
+
+footer i:hover{
+    filter: grayscale(0%);
+}
+
+.project-blue{
+    background-color: #5f7aff;
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+}
+.project-blue .button{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 0.5rem;
+    border-color: white;
+    font-size: 1.3rem;
+    border-radius: 20%;
+    background-color: #5f7aff;
+    color: white;
+}
+.project-blue .button:hover{
+    border-radius: 0%;
+    font-size: 1.3rem;
+    background-color: white;
+    color: #5f7aff;
+}
+.project-white{
+    background-color: white;
+    text-align: center;
+    color: #5f7aff;
+    padding-bottom: 100px;
+}
+.project-white .button{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 0.5rem;
+    border-color: #5f7aff;
+    font-size: 1.3rem;
+    border-radius: 20%;
+    background-color: white;
+    color: #5f7aff;
+}
+.project-white .button:hover{
+    border-radius: 0%;
+    font-size: 1.3rem;
+    background-color: #5f7aff;
+    color: white;
+}
+
+.portfolio-item{
+    width:40%;
+    max-width: 300px;
+    border: 0.5rem solid white;
+    background-color: #5f7aff;
+    box-shadow: 0 10px 20px;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+input{
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #bfc9ff;
+    color: white;
+    width:90%;
+}
+input:focus{
+    background-color: white;
+    color: #5f7aff;
+}
+textarea{
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #bfc9ff;
+    color: white;
+    width:90%;
+    height: 200px;
+}
+textarea:focus{
+    background-color: white;
+    color: #5f7aff;
+}
+input[type=submit]{
+    width: 200px;
+    background-color: #5f7aff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+q{
+    font-size: 3rem;
+    font-family: 'Tangerine';
+}
+.urdu{
+    font-family: 'Noto Nastaliq Urdu Draft';
+}
+.blogdesc img{
+  max-width: 100%;
+}
