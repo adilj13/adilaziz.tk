@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo|Roboto|Tangerine|PT+Serif');
 
 body{
+  padding: 0;
+  margin: 0;
     font-size: 1.15rem;
     font-family: 'PT Serif';
 }
@@ -80,6 +82,7 @@ a:hover{
 }
 section{
     padding-top:100px;
+    padding: 10px;
 }
 
 footer{

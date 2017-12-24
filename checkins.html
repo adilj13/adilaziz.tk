@@ -6,51 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://use.fontawesome.com/781f0a7550.js"></script>
 
-    <title>About | Adil Aziz</title>
+    <title>Check-Ins | Adil Aziz</title>
     <meta name="description" content="Adil, a web developer from Okara, staying in Lahore for studies, watch dreams with open eyes.">
     <link rel="stylesheet" href="css/main.css">
+    <style media="screen">
+      #map{
+        height: 100vh;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+    </style>
   </head>
   <body>
-    <!--<div class="navbar">
-      <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a class="active" href="contact.html">Contact</a></li>
-      </ul>
+    <div class="grid-container">
+     <div class="grid-item">1</div>
+     <div class="grid-item"><div id="map"></div></div>
+     <div class="grid-item">3</div>
     </div>
-    <div class="container">
-      <section>
-        <div class="heading">Say Hello</div>-->
-        <div id="map"></div>
 
         <script>
           function initMap() {
-            var uluru = {lat: -25.363, lng: 131.044};
+            //30.815456,73.468849
+            var center = {lat: 31.0848833, lng: 73.8278346};
             var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 4,
-              center: uluru
+              zoom: 9,
+              center: center
             });
             var marker = new google.maps.Marker({
-              position: uluru,
+              position: {lat: 30.815266, lng: 73.468755},
               map: map
             });
           }
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHpPHPRBxe4MdJROWUZ97kuhRMxveDDX8&callback=initMap"></script>
-      <!--</section>
-    </div>
-    <footer>
-      <a href="http://twitter.com/adilj13" target="_blank"><i class="fa fa-2x fa-twitter"></i></a> &nbsp;
-      <a href="http://facebook.com/adilj13" target="_blank"><i class="fa fa-2x fa-facebook"></i></a> &nbsp;
-      <a href="http://plus.google.com/+AdilAzizSE" target="_blank"><i class="fa fa-2x fa-google-plus"></i></a> &nbsp;
-      <a href="http://youtube.com/adilaziz1996" target="_blank"><i class="fa fa-2x fa-youtube"></i></a> &nbsp;
-      <a href="http://instagram.com/adilj13" target="_blank"><i class="fa fa-2x fa-instagram"></i></a> &nbsp;
-      <a href="http://snapchat.com/add/adilj13" target="_blank"><i class="fa fa-2x fa-snapchat"></i></a> &nbsp;
-      <a href="http://github.com/adilj13" target="_blank"><i class="fa fa-2x fa-github"></i></a> &nbsp;
-      <a href="http://linkedin.com/in/adilj13" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
-    </footer>
 
-    <script src="js/app.js"></script>-->
+    <script src="js/app.js"></script>
   </body>
 </html>
