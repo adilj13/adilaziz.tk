@@ -2,6 +2,7 @@
   "checkins":[
     {
       "place":"Sufi Engineering Works",
+      "city":"Okara",
       "lat":"30.815266",
       "long":"73.468755",
       "type":"food",
@@ -15,6 +16,7 @@
     },
     {
       "place":"Hardees MM Alam",
+      "city":"Lahore",
       "lat":"31.509696",
       "long":"74.350638",
       "type":"food",
