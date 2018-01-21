@@ -51,7 +51,7 @@
             var list;
             $.getJSON( "http://adilaziz.tk/data/checkins.json", function(data) {
               checkins=data.checkins;
-              list="<h3>&nbsp;<a href='index.html'><i class='fa fa-arrow-left'></i> Back</a></h3><h2 class='smallheading'>Places</h2><ol>";
+              list="<h3>&nbsp;<a href='index.html'><i class='fa fa-home'></i> Home</a></h3><h2 class='smallheading'>Places</h2><ol>";
               for (let index = 0; index < checkins.length; index++) {
                 var detail;
                 markers[index] = new google.maps.Marker({
