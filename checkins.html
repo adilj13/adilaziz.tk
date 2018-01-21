@@ -61,7 +61,7 @@
                 markers[index].addListener('click', function() {
                   detail="<h2 class='smallheading'>"+checkins[index].place+", "+checkins[index].city+"</h2><hr>";
                   for (let jndex = 0; jndex < checkins[index].iters.length; jndex++) {
-                    detail=detail+"<table><tr><th>Date:</th><td>"+checkins[index].iters[jndex].date+"</td></tr><tr><th>With:</th><td>"+checkins[index].iters[jndex].with+"</td></tr><tr><th>Story:</th><td>"+checkins[index].iters[jndex].review+"</td></tr></table><hr>";
+                    detail=detail+"<table><tr><th>Date:</th><td>"+checkins[index].iters[jndex].date+"</td></tr><tr><th>With:</th><td>"+checkins[index].iters[jndex].with+"</td></tr><tr><th>Review:</th><td>"+checkins[index].iters[jndex].review+"</td></tr></table><hr>";
                   }
                   map.setZoom(15);
                   map.setCenter(markers[index].getPosition());
